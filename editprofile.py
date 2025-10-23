@@ -7,7 +7,6 @@ def edit_profile():
         if profile[0] == reg_no:
             print("Profile found")
             profile_found = True
-
             print("Current profile details:")
             print(f"[1]: Name: {profile[1]}")
             print(f"[2]: Grade: {profile[2]}")
@@ -43,8 +42,6 @@ def edit_profile():
                    break
                else:
                    print("Invalid input. Please enter any of the given field numbers.")
-
-
 
     if not profile_found:
         print("Profile not found")

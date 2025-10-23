@@ -1,9 +1,6 @@
 # main.py
-import view_all
 from banner import banner_print
 from tabulate import tabulate
-from exit_req import exit_request
-import createprofile
 
 # banner
 banner_print()
@@ -20,17 +17,23 @@ def main_menu():
     choice = int(input("Your option - "))
 
     if choice == 1: #view full list
+        import view_all
         headers = ["Registration Number", "Name", "Grade", "Section", "Phone Number", "Email Address", "Test Scores"]
         print(tabulate(view_all.data, headers=headers, tablefmt="grid"))
+        from closemenu import exit_request
         exit_request()
     elif choice == 2: #create new profile
+        import createprofile
         createprofile.create_profile()
     elif choice == 3:
-        pass
+        import browse_particular_profile
+        browse_particular_profile.browse()
     elif choice == 4:
-        pass
+        import editprofile
+        editprofile.edit_profile()
     elif choice == 5:
-        pass
+        import deleteprofile
+        deleteprofile.delete_profile()
     else:
         print("Invalid option selected. Please try again.\n")
 

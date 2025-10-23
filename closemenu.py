@@ -5,9 +5,9 @@ def exit_request():
         exit()
     elif exit_choice == 'n':
         print("Returning to the main menu.\n")
-        print("-----------------------------------------------------------------------------------------------------------------------\n")
-        import main
-        main.main_menu()
+        print("-------------------------------------------------------------------------------------------------------------------------------------\n")
+        from main import main_menu
+        main_menu()
     else:
         print("Invalid input. Please enter 'y' or 'n'.\n")
         exit_request()

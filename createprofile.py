@@ -1,5 +1,6 @@
-import main
-from exit_req import exit_request
+import view_all
+from closemenu import exit_request
+
 def create_profile():
     print("Creating a new student profile...\n")
     reg_no = input("Enter Registration Number: ")
@@ -11,8 +12,7 @@ def create_profile():
     test_scores = input("Enter Test Scores (comma separated): ")
 
     new_profile= [reg_no, name, grade, section, phone, email, test_scores]
-    main.view_all.data.append(new_profile)
+    view_all.data.append(new_profile)
 
     print("\nNew student profile created successfully!\n")
     exit_request()
-
