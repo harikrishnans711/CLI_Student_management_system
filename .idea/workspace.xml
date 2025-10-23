@@ -5,9 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ed42b78c-186a-4ddf-838f-730a810da425" name="Changes" comment="Working_banner">
-      <change afterPath="$PROJECT_DIR$/main_menu.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/browse_particular_profile.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/closemenu.py" beforeDir="false" afterPath="$PROJECT_DIR$/closemenu.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/createprofile.py" beforeDir="false" afterPath="$PROJECT_DIR$/createprofile.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/editprofile.py" beforeDir="false" afterPath="$PROJECT_DIR$/editprofile.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/view_all.py" beforeDir="false" afterPath="$PROJECT_DIR$/view_all.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,21 +27,21 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "RaghavapriyanSaravanapriyan"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;RaghavapriyanSaravanapriyan&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/RaghavapriyanSaravanapriyan/CLI_Student_management_system.git",
-    "accountId": "db8a38c7-3d7f-452f-8aeb-682422082763"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/RaghavapriyanSaravanapriyan/CLI_Student_management_system.git&quot;,
+    &quot;accountId&quot;: &quot;db8a38c7-3d7f-452f-8aeb-682422082763&quot;
   }
-}]]></component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 5
-}]]></component>
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 5
+}</component>
   <component name="ProjectId" id="34RKnHXwj3DKxV3IKGTJLhXbwb7" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -51,14 +54,24 @@
   "keyToString": {
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "Python.banner.executor": "Run",
+    "Python.browse_particular_profile.executor": "Run",
+    "Python.closemenu.executor": "Run",
+    "Python.createprofile.executor": "Run",
     "Python.main.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
     "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "master",
-    "settings.editor.selected.configurable": "vcs.Git"
+    "settings.editor.selected.configurable": "com.android.studio.ml.bot.mainConfigurable"
   }
 }]]></component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-python-sdk-164cda30dcd9-0af03a5fa574-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-252.26830.99" />
+      </set>
+    </attachedChunks>
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="ed42b78c-186a-4ddf-838f-730a810da425" name="Changes" comment="" />
@@ -109,5 +122,15 @@
     <MESSAGE value="Start_of_project" />
     <MESSAGE value="Working_banner" />
     <option name="LAST_COMMIT_MESSAGE" value="Working_banner" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/createprofile.py</url>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
