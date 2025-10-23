@@ -61,9 +61,3 @@ The project is organized into several modules, each with a specific responsibili
 *   `editprofile.py`: Manages the process of editing an existing profile's details.
 *   `deleteprofile.py`: Contains the logic for deleting a student profile.
 *   `closemenu.py`: A utility module that prompts the user to either exit the application or return to the main menu after an operation.
-
-## Future Improvements
-
-*   **Data Persistence**: Replace the hardcoded list in `view_all.py` with a persistent storage solution like a CSV file, JSON file, or a lightweight database (e.g., SQLite).
-*   **Improved Main Loop**: Refactor `main.py` to use a continuous loop, allowing the user to perform multiple actions without the program trying to exit after each one.
-*   **Enhanced Input Validation**: Add more robust validation for all user inputs to prevent errors and crashes.
