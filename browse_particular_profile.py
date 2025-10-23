@@ -17,6 +17,5 @@ def browse():
         pass
     from closemenu import exit_request
     exit_request()
-browse()
 
 
