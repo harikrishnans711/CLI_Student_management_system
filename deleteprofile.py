@@ -2,7 +2,7 @@ import view_all
 from closemenu import exit_request
 
 def delete_profile():
-    reg_no = input("Enter the registration number of the profile to delete: ")
+    reg_no = int(input("Enter the registration number of the profile to delete: "))
     profile_found = False
     for profile in view_all.data:
         if profile[0] == reg_no:
