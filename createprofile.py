@@ -3,7 +3,7 @@ from closemenu import exit_request
 
 def create_profile():
     print("Creating a new student profile...\n")
-    reg_no = int(input("Enter Registration Number: "))
+    reg_no = int(input("Enter Registration Number[integer only]: "))
     name = input("Enter Name: ")
     grade = input("Enter Grade: ")
     section = input("Enter Section: ")
