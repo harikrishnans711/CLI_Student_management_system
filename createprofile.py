@@ -17,4 +17,3 @@ def create_profile():
     except:
         print("Invalid Input")
     exit_request()
-create_profile()
