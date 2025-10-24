@@ -45,6 +45,7 @@ def edit_profile():
 
     if not profile_found:
         print("Profile not found")
+        edit_profile()
     exit_request()
 
 
