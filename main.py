@@ -1,4 +1,6 @@
 # main.py
+
+#Made by S.Raghavapriyan and Harikrishnan
 from banner import banner_print
 from tabulate import tabulate
 
@@ -37,6 +39,8 @@ def main_menu():
         deleteprofile.delete_profile()
     else:
         print("Invalid option selected. Please try again.\n")
+        main_menu()
+        exit()
 
 
 main_menu()
