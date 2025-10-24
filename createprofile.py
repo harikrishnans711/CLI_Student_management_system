@@ -22,5 +22,6 @@ def create_profile():
         print("Profile created successfully!")
     except:
         print("Invalid Input")
+        create_profile()
     exit_request()
-create_profile()
+
